@@ -1,0 +1,14 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "My First Sample Website - First Change";
+}
+
+<h1>Sample Website</h1>
+<p>Demo by Mohammad Ghasemifard</p>
+
+<form method="post" asp-page-handler="Submit">
+    <label for="userInput">Type something:</label><br>
+    <input type="text" id="userInput" name="userInput" required><br><br>
+    <button type="submit">Submit</button>
+</form>
